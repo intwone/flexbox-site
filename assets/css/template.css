@@ -115,3 +115,62 @@ nav a:hover {
     font-size: 13px;
     text-decoration: none;
 }
+.banner_days {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+}
+.hours {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 0.5px solid #727290;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36A9E1;
+    margin-top: 10px;  
+}
+.widget_body_department {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.square {
+    margin-bottom: 25px;
+    width: 150px; 
+    height: 150px;
+    background-color: #39AAE1;
+}
+.widget_body_appointment {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+}
